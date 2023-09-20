@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.logo-title:hover{
+    transition: all 2s ease-in-out ;
+}
+
