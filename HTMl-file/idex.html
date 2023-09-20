@@ -22,18 +22,36 @@
        <header class=" container m-auto">
 
             <!-- navbar -->
-            <div class="navbar bg-base-100 flex justify-between my-16">
-                <div class=" ">
+  
+              <div class="navbar bg-base-100 my-5">
+                <div class="navbar-start">
                   <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
-                      <li> <a href="" target="_blank">CATALOGUE</a></li>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                       
-                      <li><a href="" target="_blank">FASHION</a></li>
-                      <li><a href="" target="_blank">FAVOURITE</a></li>
-                      <li><a href="" target="_blank">LIFESTYLE</a></li>
+                      <li>
+                        
+                        <ul class="p-2">
+                           
+                          <li tabindex="0">
+                            <details>
+                              <summary class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" >CATEGORY</summary>
+                              <ul class="p-2">
+                                <li><a href=""  class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer">MENS</a></li>
+                                <li><a href=""  class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer">WOMENS</a></li>
+                                <li><a href=""  class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer">KIDS</a></li>
+                              </ul>
+                            </details>
+                          </li>
+                          <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" href="" target="_blank">FASHION</a></li>
+                          <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" href="" target="_blank">FAVOURITE</a></li>
+                          <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" href="" target="_blank">LIFESTYLE</a></li>
+                          
+                        </ul>
+                      </li>
+
                       
                     </ul>
                   </div>
@@ -43,34 +61,60 @@
                   </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 ">
-                    <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer " href="" target="_blank">CATALOGUE</a></li>  
+                  <ul class="menu menu-horizontal px-1">
+                    
+                    <li tabindex="0">
+                      <details>
+                        <summary class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" >CATEGORY</summary>
+                        <ul class="p-2">
+                          <li><a href=""  class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer">MENS</a></li>
+                          <li><a href=""  class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer">WOMENS</a></li>
+                          <li><a href=""  class="hover:bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer">KIDS</a></li>
+                        </ul>
+                      </details>
+                    </li>
                     <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" href="" target="_blank">FASHION</a></li>
                     <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" href="" target="_blank">FAVOURITE</a></li>
                     <li><a class="hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" href="" target="_blank">LIFESTYLE</a></li>
-                      
+                       
                   </ul>
                 </div>
-                <div class="">
-                  <a class=" btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer bg-black text-white" href="" target="_blank">LOG IN</a>
-                  <a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white" href="" target="_blank">SING IN</a>
+                <div class="navbar-end">
+                  <div class="">
+                    <a class=" btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer bg-black text-white" href="" target="_blank">LOG IN</a>
+                    <a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white" href="" target="_blank">SING IN</a>
+                  </div>
                 </div>
               </div>
 
               <!-- header main -->
-              <section class="bg-[#F4F6F5;]">
-
-                <h1>LET’S
-                   EXPLORE
-                   UNIQUE
-                   CLOTHES.</h1>
+              <section class="bg-[#F4F6F5;] rounded-3xl">
+               
+              <div class="flex flex-col lg:flex-row m-9 ">
+                <div class="text-[#000] space-y-5 mt-24 ml-24">
+                  <h1 class="lg:text-8xl lg:font-extrabold">LET’S <br>
+                    EXPLORE <br>
+                    <span class="text-yellow-400">UNIQUE</span> <br>
+                    CLOTHES.</h1>
+                    <p class="text-3xl">Live for Influential and Innovative fashion!</p>
+                    <div class="flex flex-col lg:flex-row gap-5">
+                      <img src="../asset/images/Vector 8.svg" alt="">
+                      <a class="  btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer bg-black text-white" href="" target="_blank">SHOP NOW</a>
+                    </div>
+                 </div> 
+                 <div>
+                       <img src="../asset/images/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png" alt="">
+                 </div>
+              </div>
               </section>
                  
        </header>
        <!-- header end -->
-           
+             
          <!-- main start -->
-       <main>
+       <main class="container m-auto">
+
+           
 
        </main>
        <!-- main end -->
