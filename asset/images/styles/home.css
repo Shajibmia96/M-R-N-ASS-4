@@ -9,4 +9,9 @@
 .logo-title:hover{
     transition: all 2s ease-in-out ;
 }
+.new-arrivals{
+
+    background-image: url(../Vector\ 8.svg);
+    background-repeat: no-repeat;
+}
 
