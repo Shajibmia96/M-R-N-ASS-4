@@ -14,4 +14,7 @@
     background-image: url(../Vector\ 8.svg);
     background-repeat: no-repeat;
 }
+.vertical-collage img{
+    height: calc(( 100% - 5px )/2);
 
+}
