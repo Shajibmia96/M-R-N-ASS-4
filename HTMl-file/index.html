@@ -1,371 +1,693 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Daisy ui -->
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.6/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- Styles link -->
-<link rel="stylesheet" href="../asset/images/styles/home.css">
 
-<!-- google font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.6/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Styles link -->
+    <link rel="stylesheet" href="../asset/images/styles/home.css" />
 
- <!--  Font awesome -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body class="font-poppins">
-      <!-- Header start -->
-       <header class=" container m-auto">
+    <!--  Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-poppins">
+    <!-- Header start -->
+    <header class="container m-auto">
+      <!-- navbar -->
 
-            <!-- navbar -->
-  
-              <div class="navbar bg-base-100 my-5 flex flex-col lg:flex-row ">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      
-                      <li>
-                        
-                        <ul class="p-2 ">
-                           
-                          <li tabindex="0" >
-                            <details class="mr-10">
-                              <summary class= "btn bg-indigo-300 transition delay-150 duration-300 ease-in-out  cursor-pointer" >CATEGORY</summary>
-                              <ul class="p-2">
-                                <li><a href="mens.html"  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5">MENS</a></li>
-                                <li><a href="womens.html"  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5">WOMENS</a></li>
-                                <li><a href="womens.html"  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5">KIDS</a></li>
-                              </ul>
-                            </details>
-                          </li>
-                          <li><a class="btn bg-orange-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5" href="#" target="_blank">FASHION</a></li>
-                          <li><a class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5" href="favourite.html" target="_blank">FAVOURITE</a></li>
-                          <li><a class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5" href="litestyle.html" target="_blank">LIFESTYLE</a></li>
-                          
-                          
-                        </ul>
-                      </li>
-
-                      
-                    </ul>
-                  </div>
-                  <div class="flex justify-start items-center ">
-                    <img  src="../asset/images/Vector.svg" alt="">
-                    <h1 class=" lg:ml-5 text-4xl font-extrabold">FASHION  <span class="text-orange-500 ml-2">HOUSE</span></h1>
-                  </div>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    
-                    <li tabindex="0">
-                      <details>
-                        <summary class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5" >CATEGORY</summary>
-                        <ul class="p-2 ">
-                          <li><a href="mens.html"  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5 ">MENS</a></li>
-                          <li><a href="womens.html"  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5">WOMENS</a></li>
-                          <li><a href="kids.html"  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5">KIDS</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a class="btn bg-orange-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5" href="#" target="_blank">FASHION</a></li>
-                    <li><a class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5 " href="favourite.html" target="_blank" >FAVOURITE</a></li>
-                    <li><a class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out  cursor-pointer normal-case text-xl logo-title ml-5" href="litestyle.html" target="_blank mr-5">LIFESTYLE</a></li>
-                       
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <div class="flex  lg:flex-row" >
-                    
-                    <i class="fa-solid fa-magnifying-glass text-4xl mr-5 "></i>
-                    <a class=" btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer bg-black text-white" >LOG IN</a>
-                    <a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black "  >
-                        <!-- You can open the modal using ID.showModal() method -->
-
-
-                          <button class="text-white" onclick="my_modal_4.showModal()">SIGN UP</button>
-                           <dialog id="my_modal_4" class="modal">
-                           <div class="modal-box w-11/12 max-w-5xl">  
-                            <div class="flex justify-center items-center ">
-                              <img  src="../asset/images/Vector.svg" alt="">
-                              <h1 class=" lg:ml-5 text-4xl font-extrabold">FASHION  <span class="text-orange-500 ml-2">HOUSE</span></h1>
-                            </div>
-                              <div>
-                                  <div>
-                                    <h1 class=" lg:ml-5 text-2xl font-bold py-10">Create an account </h1>
-                                    <p class="text-xl " >Enter your details below </p>
-                                    <form action="" class="space-y-5 pt-10">
-                                       <input type="text" name="" placeholder="Your name" class="p-2 btn rounded-2xl border-orange-200" > <br>
-                                       <input type="email" placeholder="Enter your Email" class="p-2 btn rounded-2xl border-orange-200 focus:bg-none lowercase " required> <br>
-                                       <input type="password" placeholder="password" class="p-2 btn border-orange-200"> <br>
-                                       <button class="bg-red-300 p-4 rounded-2xl text-yellow-50"> Create an account</button>
-                                     <p  >Already have account?</p> <p class="underline" > Log in</p>
-                                    
-                                    </form>
-                                  </div>
-                              </div>
-                              
-                           <div class="modal-action">
-                           <form method="dialog">
-                           <!-- if there is a button, it will close the modal -->
-                           <button class="btn">Close</button>
-      </form>
-    </div>
-  </div>
-</dialog>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <!-- header main -->
-              <section class="bg-[#F4F6F5;] rounded-3xl">
-               
-              <div class="flex flex-col lg:flex-row m-9 text-3xl font-bold ">
-                <div class="text-[#000] space-y-5 mt-24 lg:ml-24">
-                  <h1 class="lg:text-8xl lg:font-extrabold">LET’S <br>
-                    EXPLORE <br>
-                    <span class="text-yellow-400">UNIQUE</span> <br>
-                    CLOTHES.</h1>
-                    <p class="text-3xl font-medium">Live for Influential and Innovative fashion!</p>
-                    <div class="flex flex-col lg:flex-row gap-5">
-                      <img src="../asset/images/Vector 8.svg" alt="">
-                      <a class="  btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer bg-black text-white" href="" target="_blank">SHOP NOW</a>
-                    </div>
-                 </div> 
-                 <div>
-                       <img src="../asset/images/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png" alt="">
-                 </div>
-              </div>
-              </section>
-                 
-       </header>
-       <!-- header end -->
-             
-         <!-- main start -->
-       <main class="container m-auto">
-
-             <!-- Our-partners -->
-             <section class=" bg-gradient-to-r from-yellow-500 to-orange-500 py-10 px-16 lg:px-44 rounded-2xl">
-                        <!-- H&R -->
-                    <div class="grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-4 items-center">
-                       <div>
-                        <img src="../asset/images/Rectangle_36-removebg-preview (1).png "  alt="" >
-                        <h1 class="text-center text-2xl mt-3"><a href="https://www.hm.com/entrance.ahtml?orguri=%2F" target="_blank">H&M <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </a></h1>
-                       </div>
-                           <!-- shopify -->
-                       <div>
-                        <img src="../asset/images/Rectangle_38-removebg-preview.png " alt="">
-                        <h1 class="text-center text-2xl mt-3"><a href="https://www.shopify.com/" target="_blank">shopify<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </a></h1>
-                       </div>
-                        <!-- amazon -->
-                       <div>
-                        <img src="../asset/images/Rectangle_41-removebg-preview.png  " alt="">
-                        <h1 class="text-center text-2xl mt-3"><a href="https://www.amazon.com/" target="_blank">amazon<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </a></h1>
-                       </div>
-                        <!-- LEVI'S -->
-                       <div>
-                        <img src="../asset/images/Rectangle_43-removebg-preview (1).png  " alt="">
-                        <h1 class="text-center text-2xl mt-3"><a href="https://www.levi.com/US/en_US/" target="_blank">Levi's<i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </a></h1>
-                       </div>
-                        <!-- OBEY -->
-                       <div>
-                        <img src="../asset/images/Rectangle_44-removebg-preview.png " alt="">
-                        <h1 class="text-center text-2xl mt-3"><a href="https://obeyclothing.com/" target="_blank">OBEY  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </a></h1>
-                       </div>
-                        <!-- Telerama -->
-                       <div>
-                        <img src="../asset/images/telerama.png " alt="">
-                        <h1 class="text-center text-2xl mt-3"><a href="https://www.telerama.fr/" target="_blank"> Telerama <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i> </a></h1>
-                       </div>
-                      
-                       
-                       
-                      
-                       
-                    </div>
-             </section>
-
-              <!-- New Arrivals section -->
-              <div class="">
-                    <h1 class="text-2xl font-bold new-arrivals m-10  ">NEW ARRIVALS</h1>
-              </div>
-
-              <div class=" grid grid-cols-1 lg:grid-cols-3 gap-5" >
-                  <div class="space-y-7">
-                      <!-- one -->
-                     <img src="../asset/images/Rectangle 20.png" alt="">
-                     <div class="flex justify-evenly">
-                      <div>
-                        <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
-                      
-                        <div class="text-center"><a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white" href="" target="_blank">Explore Now!</a></div>
-                      </div>
-                      <div>
-                        <i class="fa-solid fa-arrow-right" ></i>
-                      </div>
-
-
-                     </div>
-                      <!-- Two -->
-                  </div>
-                  <div class="space-y-7">
-                     <img src="../asset/images/Rectangle 21.png" alt="">
-                     <div class="flex justify-evenly">
-                      <div>
-                        <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
-                        <div class="text-center"><a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white" href="" target="_blank">Explore Now!</a></div>
-                      </div>
-                      <div>
-                        <i class="fa-solid fa-arrow-right" ></i>
-                      </div>
-
-
-                     </div>
-                  </div>
-                  <!-- Three -->
-                  <div class="space-y-7">
-                     <img src="../asset/images/Rectangle 22.png" alt="">
-                     <div class="flex justify-evenly">
-                      <div>
-                        <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
-                        <div class="text-center"><a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white" href="" target="_blank">Explore Now!</a></div>
-                      </div>
-                      <div>
-                        <i class="fa-solid fa-arrow-right" ></i>
-                      </div>
-
-
-                     </div>
-                  </div>
-              </div>
-
-              <!-- sell-section -->
-
-              <section class="bg-gradient-to-r from-yellow-500 to-pink-400-500 my-12 flex flex-col lg:flex-row lg:gap-28 ">
-
-                    <div>
-                      <img  src="../asset/images/image 12.png" alt="">
-                    </div>
-                    <div class="space-y-10 mt-20 p-10">
-                    <h1 class="lg:text-8xl lg:font-extrabold text-3xl font-bold"> PAYDAY
-                       <br>
-                      <span class="text-yellow-400">SALE</span> NOW
+      <div class="navbar bg-base-100 my-5 flex flex-col lg:flex-row">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <ul class="p-2">
+                  <li tabindex="0">
+                    <details class="mr-10">
+                      <summary
+                        class="btn bg-indigo-300 transition delay-150 duration-300 ease-in-out cursor-pointer"
+                      >
+                        CATEGORY
+                      </summary>
+                      <ul class="p-2">
+                        <li>
+                          <a
+                            href="mens.html"
+                            class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                            >MENS</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="womens.html"
+                            class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                            >WOMENS</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="womens.html"
+                            class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                            >KIDS</a
+                          >
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <a
+                      class="btn bg-orange-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                      href="#"
+                      target="_blank"
+                      >FASHION</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                      href="favourite.html"
+                      target="_blank"
+                      >FAVOURITE</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                      href="litestyle.html"
+                      target="_blank"
+                      >LIFESTYLE</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="flex justify-start items-center">
+            <img src="../asset/images/Vector.svg" alt="" />
+            <h1 class="lg:ml-5 text-4xl font-extrabold">
+              FASHION <span class="text-orange-500 ml-2">HOUSE</span>
+            </h1>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li tabindex="0">
+              <details>
+                <summary
+                  class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                >
+                  CATEGORY
+                </summary>
+                <ul class="p-2">
+                  <li>
+                    <a
+                      href="mens.html"
+                      class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                      >MENS</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="womens.html"
+                      class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                      >WOMENS</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="kids.html"
+                      class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                      >KIDS</a
+                    >
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <a
+                class="btn bg-orange-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                href="#"
+                target="_blank"
+                >FASHION</a
+              >
+            </li>
+            <li>
+              <a
+                class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                href="favourite.html"
+                target="_blank"
+                >FAVOURITE</a
+              >
+            </li>
+            <li>
+              <a
+                class="btn bg-cyan-200 hover:bg-violet-300 transition delay-150 duration-300 ease-in-out cursor-pointer normal-case text-xl logo-title ml-5"
+                href="litestyle.html"
+                target="_blank mr-5"
+                >LIFESTYLE</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="flex lg:flex-row">
+            <i class="fa-solid fa-magnifying-glass text-4xl mr-5"></i>
+            <!-- log in -->
+            <div>
+              <a
+                class="btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black "
+              >
+                <!-- Open the modal using ID.showModal() method -->
+                <button class="text-white" onclick="my_modal_1.showModal()">
+                   LOG IN
+                </button>
+                <dialog id="my_modal_1" class="modal">
+                  <div class="modal-box w-11/12 max-w-5xl">
+                    <div class="flex justify-center items-center">
+                      <img src="../asset/images/Vector.svg" alt="" />
+                      <h1 class="lg:ml-5 text-4xl font-extrabold">
+                        FASHION <span class="text-orange-500 ml-2">HOUSE</span>
                       </h1>
-                      <p class="text-3xl font-medium ">Spend minimal $100 get 30% off
-                        voucher code for your next purchase</p>
-                        <h1 class=" text-2xl font-semibold"> 25 September - 30 September 2023</h1>
-                        <p class="text-3xl font-medium ">*Terms & Conditions apply</p>
-                      <div class="flex flex-col lg:flex-row gap-5">
-                        
-                        <a class="  btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer bg-black text-white" href="" target="_blank">SHOP NOW</a>
-                        <img src="../asset/images/Vector 8.svg" alt="">
+                    </div>
+                    <div>
+                      <div>
+                        <h1 class="lg:ml-5 text-2xl font-bold py-10">
+                          Log in to Exclusive
+
+                        </h1>
+                        <p class="text-xl">Enter your details below</p>
+                        <form action="" class="space-y-5 pt-10">
+                          
+                          <br />
+                          <input
+                            type="email"
+                            placeholder="Enter your Email"
+                            class="p-2 btn rounded-2xl border-orange-200 focus:bg-none lowercase"
+                            required
+                          />
+                          <br />
+                          <input
+                            type="password"
+                            placeholder="password"
+                            class="p-2 btn border-orange-200"
+                          />
+                          <br />
+                          <button
+                            class="bg-red-300 p-4 rounded-2xl text-yellow-50"
+                          >
+                            LOG IN
+                          </button>
+                          
+                        </form>
                       </div>
-                   </div>
-                  
-              </section>
+                    </div>
 
-               <!--Young’s Favourite section  -->
+                    <div class="modal-action">
+                      <form method="dialog">
+                        <!-- if there is a button, it will close the modal -->
+                        <button class="btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white">Close</button>
+                      </form>
+                    </div>
+                  </div>
+                </dialog>
+              </a>
+            </div>
+            <!-- sign up -->
+            <div>
+              <a
+                class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black "
+              >
+                <!-- You can open the modal using ID.showModal() method -->
 
-               <div class="">
-                <h1 class="text-2xl font-bold new-arrivals m-10  ">Young’s Favourite</h1>
+                <button class="text-white" onclick="my_modal_4.showModal()">
+                  SIGN UP
+                </button>
+                <dialog id="my_modal_4" class="modal">
+                  <div class="modal-box w-11/12 max-w-5xl">
+                    <div class="flex justify-center items-center">
+                      <img src="../asset/images/Vector.svg" alt="" />
+                      <h1 class="lg:ml-5 text-4xl font-extrabold">
+                        FASHION <span class="text-orange-500 ml-2">HOUSE</span>
+                      </h1>
+                    </div>
+                    <div>
+                      <div>
+                        <h1 class="lg:ml-5 text-2xl font-bold py-10">
+                          Create an account
+                        </h1>
+                        <p class="text-xl">Enter your details below</p>
+                        <form action="" class="space-y-5 pt-10">
+                          <input
+                            type="text"
+                            name=""
+                            placeholder="Your name"
+                            class="p-2 btn rounded-2xl border-orange-200"
+                          />
+                          <br />
+                          <input
+                            type="email"
+                            placeholder="Enter your Email"
+                            class="p-2 btn rounded-2xl border-orange-200 focus:bg-none lowercase"
+                            required
+                          />
+                          <br />
+                          <input
+                            type="password"
+                            placeholder="password"
+                            class="p-2 btn border-orange-200"
+                          />
+                          <br />
+                          <button
+                            class="bg-red-300 p-4 rounded-2xl text-yellow-50"
+                          >
+                            Create an account
+                          </button>
+                          <p>Already have account?</p>
+                          <p class="underline">Log in</p>
+                        </form>
+                      </div>
+                    </div>
+
+                    <div class="modal-action">
+                      <form method="dialog">
+                        <!-- if there is a button, it will close the modal -->
+                        <button class="btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white">Close</button>
+                      </form>
+                    </div>
+                  </div>
+                </dialog>
+              </a>
+            </div>
           </div>
+        </div>
+      </div>
 
-          <div class=" grid grid-cols-1 lg:grid-cols-2 gap-5" >
-              <div class="space-y-7">
-                  <!-- one -->
-                 <img src="../asset/images/Rectangle 49.png " alt="">
-                 <div class="flex justify-evenly">
-                  <div>
-                    <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
-                  
-                    <div class="text-center"><a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white mt-5" href="" target="_blank">Explore Now!</a></div>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrow-right" ></i>
-                  </div>
+      <!-- header main -->
+      <section class="bg-[#F4F6F5;] rounded-3xl">
+        <div class="flex flex-col lg:flex-row m-9 text-3xl font-bold">
+          <div class="text-[#000] space-y-5 mt-24 lg:ml-24">
+            <h1 class="lg:text-8xl lg:font-extrabold">
+              LET’S <br />
+              EXPLORE <br />
+              <span class="text-yellow-400">UNIQUE</span> <br />
+              CLOTHES.
+            </h1>
+            <p class="text-3xl font-medium">
+              Live for Influential and Innovative fashion!
+            </p>
+            <div class="flex flex-col lg:flex-row gap-5">
+              <img src="../asset/images/Vector 8.svg" alt="" />
+              <a
+                class="btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white"
+                href=""
+                target="_blank"
+                >SHOP NOW</a
+              >
+            </div>
+          </div>
+          <div>
+            <img
+              src="../asset/images/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header end -->
 
+    <!-- main start -->
+    <main class="container m-auto">
+      <!-- Our-partners -->
+      <section
+        class="bg-gradient-to-r from-yellow-500 to-orange-500 py-10 px-16 lg:px-44 rounded-2xl"
+      >
+        <!-- H&R -->
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 gap-3 lg:gap-4 items-center"
+        >
+          <div>
+            <img
+              src="../asset/images/Rectangle_36-removebg-preview (1).png "
+              alt=""
+            />
+            <h1 class="text-center text-2xl mt-3">
+              <a
+                href="https://www.hm.com/entrance.ahtml?orguri=%2F"
+                target="_blank"
+                >H&M
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+              </a>
+            </h1>
+          </div>
+          <!-- shopify -->
+          <div>
+            <img
+              src="../asset/images/Rectangle_38-removebg-preview.png "
+              alt=""
+            />
+            <h1 class="text-center text-2xl mt-3">
+              <a href="https://www.shopify.com/" target="_blank"
+                >shopify<i
+                  class="fa-solid fa-arrow-right"
+                  style="color: #ffffff"
+                ></i>
+              </a>
+            </h1>
+          </div>
+          <!-- amazon -->
+          <div>
+            <img
+              src="../asset/images/Rectangle_41-removebg-preview.png  "
+              alt=""
+            />
+            <h1 class="text-center text-2xl mt-3">
+              <a href="https://www.amazon.com/" target="_blank"
+                >amazon<i
+                  class="fa-solid fa-arrow-right"
+                  style="color: #ffffff"
+                ></i>
+              </a>
+            </h1>
+          </div>
+          <!-- LEVI'S -->
+          <div>
+            <img
+              src="../asset/images/Rectangle_43-removebg-preview (1).png  "
+              alt=""
+            />
+            <h1 class="text-center text-2xl mt-3">
+              <a href="https://www.levi.com/US/en_US/" target="_blank"
+                >Levi's<i
+                  class="fa-solid fa-arrow-right"
+                  style="color: #ffffff"
+                ></i>
+              </a>
+            </h1>
+          </div>
+          <!-- OBEY -->
+          <div>
+            <img
+              src="../asset/images/Rectangle_44-removebg-preview.png "
+              alt=""
+            />
+            <h1 class="text-center text-2xl mt-3">
+              <a href="https://obeyclothing.com/" target="_blank"
+                >OBEY
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+              </a>
+            </h1>
+          </div>
+          <!-- Telerama -->
+          <div>
+            <img src="../asset/images/telerama.png " alt="" />
+            <h1 class="text-center text-2xl mt-3">
+              <a href="https://www.telerama.fr/" target="_blank">
+                Telerama
+                <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+              </a>
+            </h1>
+          </div>
+        </div>
+      </section>
 
-                 </div>
-                  <!-- Two -->
+      <!-- New Arrivals section -->
+      <div class="">
+        <h1 class="text-2xl font-bold new-arrivals m-10">NEW ARRIVALS</h1>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div class="space-y-7">
+          <!-- one -->
+          <img src="../asset/images/Rectangle 20.png" alt="" />
+          <div class="flex justify-evenly">
+            <div>
+              <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
+
+              <div class="text-center">
+                <a
+                  class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white"
+                  href=""
+                  target="_blank"
+                  >Explore Now!</a
+                >
               </div>
-              <div class="space-y-7">
-                 <img src="../asset/images/Rectangle 50.png " alt="">
-                 <div class="flex justify-evenly">
-                  <div>
-                    <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
-                    <div class="text-center"><a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white mt-5" href="" target="_blank">Explore Now!</a></div>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-arrow-right" ></i>
-                  </div>
-
-
-                 </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <!-- Two -->
+        </div>
+        <div class="space-y-7">
+          <img src="../asset/images/Rectangle 21.png" alt="" />
+          <div class="flex justify-evenly">
+            <div>
+              <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
+              <div class="text-center">
+                <a
+                  class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white"
+                  href=""
+                  target="_blank"
+                  >Explore Now!</a
+                >
               </div>
-           
+            </div>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
           </div>
-
-
-               <!-- Join us section  -->
-
-               <section class=" bg-[#E5C643] flex justify-center items-center p-36 rounded-xl mt-6">
-                  <div class="text-white space-y-5 ">
-                    <h1 class=" lg:text-7xl text-4xl font-bold ">JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h1>
-                    <p class="text-xl font-medium ">Type your email down below and be young wild generation</p>
-                    <input class="p-3 border-none rounded-xl" type="email" name="" id="" placeholder="Add your email here" required>
-                      <a class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out  cursor-pointer  bg-black text-white mt-5" href="" target="_blank">SEND</a>
-                    
-                  </div>
-               </section>
-                 
-       </main>
-       <!-- main end -->
-
-       <footer class="footer p-10 py-32 mt-24 pl-24 lg:pl-72 bg-black text-white  rounded-2xl">
-        <nav>
-          <header class="footer-title text-3xl text-white font-bold">FASHION</header> 
-          <p class="text-white text-xl">Complete your style with <br>awesome clothes from us.</p>
-          <div class="grid grid-flow-col gap-4">
-            <a href="https://www.facebook.com/md.didarahamed.18/" target="_blank"><img src="../asset/images/Group 10.svg" alt=""></a>
-             
-            <a href="https://www.instagram.com/mdshajibahamedornob/" target="_blank"><img src="../asset/images/Group 11.svg" alt=""></a>
-             
-            <a href="" target="_blank"><img src="../asset/images/Group 12.svg" alt=""></a>
-             
-            <a href="https://www.linkedin.com/in/shajib-mia-041522249/" target="_blank"><img class="w-[55px] h-[55px]" src="../asset/images/linkedin 1.svg" alt=""></a>
-             
+        </div>
+        <!-- Three -->
+        <div class="space-y-7">
+          <img src="../asset/images/Rectangle 22.png" alt="" />
+          <div class="flex justify-evenly">
+            <div>
+              <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
+              <div class="text-center">
+                <a
+                  class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white"
+                  href=""
+                  target="_blank"
+                  >Explore Now!</a
+                >
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
           </div>
-        </nav>
-        <nav>
-          <header class="footer-title">Services</header> 
-          <a class="link link-hover">Branding</a> 
-          <a class="link link-hover">Design</a> 
-          <a class="link link-hover">Marketing</a> 
-          <a class="link link-hover">Advertisement</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a> 
-          <a class="link link-hover">Contact</a> 
-          <a class="link link-hover">Jobs</a> 
-          <a class="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">DOWNLOAD APP</header> 
-           <img src="../asset/images/Rectangle 18.png" alt="">
-           <img src="../asset/images/Rectangle 55.png" alt="">
-        </nav> 
-       
-      </footer>
-</body>
+        </div>
+      </div>
+
+      <!-- sell-section -->
+
+      <section
+        class="bg-gradient-to-r from-yellow-500 to-pink-400-500 my-12 flex flex-col lg:flex-row lg:gap-28"
+      >
+        <div>
+          <img src="../asset/images/image 12.png" alt="" />
+        </div>
+        <div class="space-y-10 mt-20 p-10">
+          <h1 class="lg:text-8xl lg:font-extrabold text-3xl font-bold">
+            PAYDAY
+            <br />
+            <span class="text-yellow-400">SALE</span> NOW
+          </h1>
+          <p class="text-3xl font-medium">
+            Spend minimal $100 get 30% off voucher code for your next purchase
+          </p>
+          <h1 class="text-2xl font-semibold">
+            25 September - 30 September 2023
+          </h1>
+          <p class="text-3xl font-medium">*Terms & Conditions apply</p>
+          <div class="flex flex-col lg:flex-row gap-5">
+            <a
+              class="btn mr-5 hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white"
+              href=""
+              target="_blank"
+              >SHOP NOW</a
+            >
+            <img src="../asset/images/Vector 8.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--Young’s Favourite section  -->
+
+      <div class="">
+        <h1 class="text-2xl font-bold new-arrivals m-10">Young’s Favourite</h1>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="space-y-7">
+          <!-- one -->
+          <img src="../asset/images/Rectangle 49.png " alt="" />
+          <div class="flex justify-evenly">
+            <div>
+              <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
+
+              <div class="text-center">
+                <a
+                  class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white mt-5"
+                  href=""
+                  target="_blank"
+                  >Explore Now!</a
+                >
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <!-- Two -->
+        </div>
+        <div class="space-y-7">
+          <img src="../asset/images/Rectangle 50.png " alt="" />
+          <div class="flex justify-evenly">
+            <div>
+              <p class="text-3xl font-medium">Hoodies & Sweetshirt</p>
+              <div class="text-center">
+                <a
+                  class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white mt-5"
+                  href=""
+                  target="_blank"
+                  >Explore Now!</a
+                >
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Join us section  -->
+
+      <section
+        class="bg-[#E5C643] flex justify-center items-center p-36 rounded-xl mt-6"
+      >
+        <div class="text-white space-y-5">
+          <h1 class="lg:text-7xl text-4xl font-bold">
+            JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO
+          </h1>
+          <p class="text-xl font-medium">
+            Type your email down below and be young wild generation
+          </p>
+          <input
+            class="p-3 border-none rounded-xl"
+            type="email"
+            name=""
+            id=""
+            placeholder="Add your email here"
+            required
+          />
+          <a
+            class="btn rounded-xl hover:bg-violet-300 transition delay-350 duration-500 ease-in-out cursor-pointer bg-black text-white mt-5"
+            href=""
+            target="_blank"
+            >SEND</a
+          >
+        </div>
+      </section>
+    </main>
+    <!-- main end -->
+
+    <footer
+      class="footer p-10 py-32 mt-24 pl-24 lg:pl-72 bg-black text-white rounded-2xl"
+    >
+      <nav>
+        <header class="footer-title text-3xl text-white font-bold">
+          FASHION
+        </header>
+        <p class="text-white text-xl">
+          Complete your style with <br />awesome clothes from us.
+        </p>
+        <div class="grid grid-flow-col gap-4">
+          <a href="https://www.facebook.com/md.didarahamed.18/" target="_blank"
+            ><img src="../asset/images/Group 10.svg" alt=""
+          /></a>
+
+          <a
+            href="https://www.instagram.com/mdshajibahamedornob/"
+            target="_blank"
+            ><img src="../asset/images/Group 11.svg" alt=""
+          /></a>
+
+          <a href="" target="_blank"
+            ><img src="../asset/images/Group 12.svg" alt=""
+          /></a>
+
+          <a
+            href="https://www.linkedin.com/in/shajib-mia-041522249/"
+            target="_blank"
+            ><img
+              class="w-[55px] h-[55px]"
+              src="../asset/images/linkedin 1.svg"
+              alt=""
+          /></a>
+        </div>
+      </nav>
+      <nav>
+        <header class="footer-title">Services</header>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <header class="footer-title">Company</header>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <header class="footer-title">DOWNLOAD APP</header>
+        <img src="../asset/images/Rectangle 18.png" alt="" />
+        <img src="../asset/images/Rectangle 55.png" alt="" />
+      </nav>
+    </footer>
+  </body>
 </html>
